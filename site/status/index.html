@@ -67,6 +67,18 @@
     <a class="current" href="./">Status</a>
     <ul class="subnav">
             
+    <li class="toctree-l2"><a href="#explanation">Explanation</a></li>
+    
+
+    <li class="toctree-l2"><a href="#types-of-status">Types of Status</a></li>
+    
+
+    <li class="toctree-l2"><a href="#transmission">Transmission</a></li>
+    
+
+    <li class="toctree-l2"><a href="#example">Example</a></li>
+    
+
     </ul>
 	    </li>
           
@@ -112,7 +124,36 @@
           <div role="main">
             <div class="section">
               
-                <p>Under Construction</p>
+                <h1 id="explanation">Explanation</h1>
+<p>After a survey has been finished by a panelist, we need to be informed about the status he/she has accomplished in order to be able to credit the incentive.<br />
+This can be done easily via API as well. There are different types of status which should be distinguished.<br /></p>
+<h1 id="types-of-status">Types of Status</h1>
+<p><strong>Complete</strong><br />
+The panelist was able to complete the survey successfully and will be credited by us.<br />
+Each complete will be invoiced according to our agreement.<br /></p>
+<p><strong>Screenout</strong><br />
+The panelist did not qualify for the survey since he/she does not belong to the target group(s).<br />
+Screening questions should be asked at the beginning of the survey.<br /></p>
+<p><strong>Quotafull</strong><br />
+The panelist did qualify for the survey, however there were already enough completes registered of the panelists group quota.</p>
+<h1 id="transmission">Transmission</h1>
+<p>The status information should be sent to us via POST to an individual URL which you will provided with and should contain the following information:</p>
+<p>status | Values: COMPLETE, SCREENOUT, QUOTAFULL
+loi | Length of Interview in Minutes
+project_id | ID of project/survey
+country_iso_code | Country ISO Code of project/survey
+language | Language of Survey
+respondent_id | ID of panelist</p>
+<h1 id="example">Example</h1>
+<pre><code>{
+    &quot;status&quot;:&quot;COMPLETE&quot;,
+    &quot;loi&quot;:&quot;15&quot;,
+    &quot;project_id&quot;:12345,
+    &quot;country_iso_code&quot;:&quot;US&quot;,
+    &quot;language&quot;:&quot;en&quot;,
+    &quot;respondent_id&quot;:&quot;349-1-12345678&quot;
+}
+</code></pre>
               
             </div>
           </div>

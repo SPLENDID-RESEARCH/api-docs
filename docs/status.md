@@ -22,6 +22,10 @@ The panelist did qualify for the survey, however there were already enough compl
 
 The status information should be sent to us via POST to an individual URL which you will provided with and should contain the following information:
 
+**IMPORTANT: The URL for status transmission is different to the URL for invite requests**
+
+Variable | Explanation
+--- | ---
 status | Values: COMPLETE, SCREENOUT, QUOTAFULL
 loi | Length of Interview in Minutes
 project_id | ID of project/survey
@@ -29,13 +33,15 @@ country_iso_code | Country ISO Code of project/survey
 language | Language of Survey
 respondent_id | ID of panelist
 
+
+
 # Example
 
 ```
 {
     "status":"COMPLETE",
     "loi":"15",
-    "project_id":12345,
+    "project_id":"12345",
     "country_iso_code":"US",
     "language":"en",
     "respondent_id":"349-1-12345678"
