@@ -14,16 +14,16 @@ Do not hesitate to [contact us](mailto:api@splendid-research.com) if you are hav
 Connecting to our panels is very easy! You just need to consider and implement 4 methods:
 
 * [Panelist Transfer](/panelist)<br />
-You need to gain access to our panelbase to be able to target and select panelists.<br />
+You need to gain access to our panelbase to be able to target and select panelists.<br /><br />
 
 * [Invite Requests](/invites)<br />
-You can request new invitations via API.<br />
+You can request new invitations via API.<br /><br />
 
 * [Status](/status)<br />
-Every participant who finishes a survey should get a final status which will be transmitted to us.<br />
+Every participant who finishes a survey should get a final status which will be transmitted to us.<br /><br />
 
 * [Redirects](/redirect)<br />
-After finishing a survey the panelist should be redirected to us again depending on the status he got.<br />
+After finishing a survey the panelist should be redirected to us again depending on the status he got.<br /><br />
 
 # Workflow Chart
 
