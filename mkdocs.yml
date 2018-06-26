@@ -1,5 +1,9 @@
-site_name: test
+site_name: SPLENDID RESEARCH API Documentation
 pages:
-    - Home: index.md
+    - Overview: index.md
+    - Panelist Transfer: panelist.md
+    - Invite Requests: invites.md
+    - Status: status.md
+    - Redirects: redirect.md 
     - About: about.md
 theme: readthedocs
