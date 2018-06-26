@@ -2,23 +2,23 @@
     "docs": [
         {
             "location": "/",
-            "text": "Test\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "Welcome\n\n\nHello There!\n\n\nThis documentation provides information on how to connect to SPLENDID RESEARCH via API.\nIt aims to include both general and technical principles and processes.\nBy following the steps described below you will be able to gain access to our Online Access Panels.\n\n\nDo not hesitate to \ncontact us\n if you are having any questions or remarks about this documentation.\n\n\nIntegration Process\n\n\nConnecting to our panels is very easy! You just need to consider and implement 4 methods:\n\n\n*\nPanelist Transfer\n\nYou need to gain access to our panelbase to be able to target and select panelists.\n\n\n*\nInvite Requests\n\nYou can request new invitations via API.\n\n\n*\nStatus\n\nEvery participant who finishes a survey should get a final status which will be transmitted to us.\n\n\n*\nRedirects\n\nAfter finishing a survey the panelist should be redirected to us again depending on the status he got.\n\n\nWorkflow Chart\n\n\nAs you see there is really not much needed to get the API to work:",
             "title": "Overview"
         },
         {
-            "location": "/#test",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Test"
+            "location": "/#welcome",
+            "text": "Hello There!  This documentation provides information on how to connect to SPLENDID RESEARCH via API.\nIt aims to include both general and technical principles and processes.\nBy following the steps described below you will be able to gain access to our Online Access Panels.  Do not hesitate to  contact us  if you are having any questions or remarks about this documentation.",
+            "title": "Welcome"
         },
         {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
+            "location": "/#integration-process",
+            "text": "Connecting to our panels is very easy! You just need to consider and implement 4 methods:  * Panelist Transfer \nYou need to gain access to our panelbase to be able to target and select panelists.  * Invite Requests \nYou can request new invitations via API.  * Status \nEvery participant who finishes a survey should get a final status which will be transmitted to us.  * Redirects \nAfter finishing a survey the panelist should be redirected to us again depending on the status he got.",
+            "title": "Integration Process"
         },
         {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/#workflow-chart",
+            "text": "As you see there is really not much needed to get the API to work:",
+            "title": "Workflow Chart"
         },
         {
             "location": "/panelist/",
