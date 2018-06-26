@@ -4,7 +4,39 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-06-08</lastmod>
+     <lastmod>2018-06-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/panelist/</loc>
+     <lastmod>2018-06-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/invites/</loc>
+     <lastmod>2018-06-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/status/</loc>
+     <lastmod>2018-06-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/redirect/</loc>
+     <lastmod>2018-06-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +44,7 @@
     
     <url>
      <loc>/about/</loc>
-     <lastmod>2018-06-08</lastmod>
+     <lastmod>2018-06-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
