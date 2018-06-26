@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome\n\n\nHello There!\n\n\nThis documentation provides information on how to connect to SPLENDID RESEARCH via API.\nIt aims to include both general and technical principles and processes.\nBy following the steps described below you will be able to gain access to our Online Access Panels.\n\n\nDo not hesitate to \ncontact us\n if you are having any questions or remarks about this documentation.\n\n\nIntegration Process\n\n\nConnecting to our panels is very easy! You just need to consider and implement 4 methods:\n\n\n*\nPanelist Transfer\n\nYou need to gain access to our panelbase to be able to target and select panelists.\n\n\n*\nInvite Requests\n\nYou can request new invitations via API.\n\n\n*\nStatus\n\nEvery participant who finishes a survey should get a final status which will be transmitted to us.\n\n\n*\nRedirects\n\nAfter finishing a survey the panelist should be redirected to us again depending on the status he got.\n\n\nWorkflow Chart\n\n\nAs you see there is really not much needed to get the API to work:",
+            "text": "Welcome\n\n\nHello There!\n\n\nThis documentation provides information on how to connect to SPLENDID RESEARCH via API.\nIt aims to include both general and technical principles and processes.\nBy following the steps described below you will be able to gain access to our Online Access Panels.\n\n\nDo not hesitate to \ncontact us\n if you are having any questions or remarks about this documentation.\n\n\nIntegration Process\n\n\nConnecting to our panels is very easy! You just need to consider and implement 4 methods:\n\n\n\n\n\n\nPanelist Transfer\n\nYou need to gain access to our panelbase to be able to target and select panelists.\n\n\n\n\n\n\nInvite Requests\n\nYou can request new invitations via API.\n\n\n\n\n\n\nStatus\n\nEvery participant who finishes a survey should get a final status which will be transmitted to us.\n\n\n\n\n\n\nRedirects\n\nAfter finishing a survey the panelist should be redirected to us again depending on the status he got.\n\n\n\n\n\n\nWorkflow Chart\n\n\nAs you see there is really not much needed to get the API to work:",
             "title": "Overview"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/#integration-process",
-            "text": "Connecting to our panels is very easy! You just need to consider and implement 4 methods:  * Panelist Transfer \nYou need to gain access to our panelbase to be able to target and select panelists.  * Invite Requests \nYou can request new invitations via API.  * Status \nEvery participant who finishes a survey should get a final status which will be transmitted to us.  * Redirects \nAfter finishing a survey the panelist should be redirected to us again depending on the status he got.",
+            "text": "Connecting to our panels is very easy! You just need to consider and implement 4 methods:    Panelist Transfer \nYou need to gain access to our panelbase to be able to target and select panelists.    Invite Requests \nYou can request new invitations via API.    Status \nEvery participant who finishes a survey should get a final status which will be transmitted to us.    Redirects \nAfter finishing a survey the panelist should be redirected to us again depending on the status he got.",
             "title": "Integration Process"
         },
         {
