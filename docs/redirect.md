@@ -11,13 +11,13 @@ You should implement those URLs as redirects after a survey has been finished.<b
 
 Please implement the following redirects:<br />
 
-Complete<br />
+**Complete<br />
 `https://surveys.mobrog.com/?ID=43&return=complete`<br />
 
-Screenout<br />
+**Screenout<br />
 `https://surveys.mobrog.com/?ID=43&return=screenout`<br />
 
-Quotafull<br />
+**Quotafull<br />
 `https://surveys.mobrog.com/?ID=43&return=quotafull`<br />
 
 

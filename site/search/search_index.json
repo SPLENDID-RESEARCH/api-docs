@@ -27,7 +27,7 @@
         },
         {
             "location": "/panelist/",
-            "text": "",
+            "text": "Under Construction",
             "title": "Panelist Transfer"
         },
         {
@@ -42,8 +42,18 @@
         },
         {
             "location": "/redirect/",
-            "text": "Under Construction",
+            "text": "Explanation\n\n\nAfter a survey has been finished by a panelist, he/she should be redirected to us again where we will inform him about his status and provide additional information.\n\nDepending on the status a different page will be shown to the panelist.\n\nYou should implement those URLs as redirects after a survey has been finished.\n\n\nIMPORTANT: Those redirects do not affect the status. Both the redirect and the status should be the same, however both methods have to be implemented separately.\n\n\nURLs\n\n\nPlease implement the following redirects:\n\n\nComplete\n\n\nhttps://surveys.mobrog.com/?ID=43&return=complete\n\n\nScreenout\n\n\nhttps://surveys.mobrog.com/?ID=43&return=screenout\n\n\nQuotafull\n\n\nhttps://surveys.mobrog.com/?ID=43&return=quotafull",
             "title": "Redirects"
+        },
+        {
+            "location": "/redirect/#explanation",
+            "text": "After a survey has been finished by a panelist, he/she should be redirected to us again where we will inform him about his status and provide additional information. \nDepending on the status a different page will be shown to the panelist. \nYou should implement those URLs as redirects after a survey has been finished.  IMPORTANT: Those redirects do not affect the status. Both the redirect and the status should be the same, however both methods have to be implemented separately.",
+            "title": "Explanation"
+        },
+        {
+            "location": "/redirect/#urls",
+            "text": "Please implement the following redirects:  Complete  https://surveys.mobrog.com/?ID=43&return=complete  Screenout  https://surveys.mobrog.com/?ID=43&return=screenout  Quotafull  https://surveys.mobrog.com/?ID=43&return=quotafull",
+            "title": "URLs"
         },
         {
             "location": "/about/",

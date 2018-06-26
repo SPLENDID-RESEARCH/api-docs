@@ -72,6 +72,12 @@
     <a class="current" href="./">Redirects</a>
     <ul class="subnav">
             
+    <li class="toctree-l2"><a href="#explanation">Explanation</a></li>
+    
+
+    <li class="toctree-l2"><a href="#urls">URLs</a></li>
+    
+
     </ul>
 	    </li>
           
@@ -112,7 +118,19 @@
           <div role="main">
             <div class="section">
               
-                <p>Under Construction</p>
+                <h1 id="explanation">Explanation</h1>
+<p>After a survey has been finished by a panelist, he/she should be redirected to us again where we will inform him about his status and provide additional information.<br />
+Depending on the status a different page will be shown to the panelist.<br />
+You should implement those URLs as redirects after a survey has been finished.<br /></p>
+<p><strong>IMPORTANT: Those redirects do not affect the status. Both the redirect and the status should be the same, however both methods have to be implemented separately.</strong></p>
+<h1 id="urls">URLs</h1>
+<p>Please implement the following redirects:<br /></p>
+<p>Complete<br />
+<code>https://surveys.mobrog.com/?ID=43&amp;return=complete</code><br /></p>
+<p>Screenout<br />
+<code>https://surveys.mobrog.com/?ID=43&amp;return=screenout</code><br /></p>
+<p>Quotafull<br />
+<code>https://surveys.mobrog.com/?ID=43&amp;return=quotafull</code><br /></p>
               
             </div>
           </div>
