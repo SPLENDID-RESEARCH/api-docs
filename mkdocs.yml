@@ -1,4 +1,4 @@
-site_name: SPLENDID RESEARCH API Documentation
+site_name: SPLENDID RESEARCH API
 pages:
     - Overview: index.md
     - Panelist Transfer: panelist.md
