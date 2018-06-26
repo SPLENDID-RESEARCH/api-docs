@@ -35,7 +35,7 @@ As you see there is really not much needed to get the API to work:
 # Other Integrations
 
 Your API approach looks different from what is described above?<br />
-No Problem! Feel free to [contact us](mailto:api@splendid-research.com) and we'll try to find a way to collaborate.
+No problem! Feel free to [contact us](mailto:api@splendid-research.com) and we'll try to find a way to collaborate.
 
 
 

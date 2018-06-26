@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome\n\n\nHello There!\n\n\nThis documentation provides information on how to connect to SPLENDID RESEARCH via API.\nIt aims to include both general and technical principles and processes.\nBy following the steps described below you will be able to gain access to our Online Access Panels.\n\n\nDo not hesitate to \ncontact us\n if you are having any questions or remarks about this documentation.\n\n\nIntegration Process\n\n\nConnecting to our panels is very easy! You just need to consider and implement 4 methods:\n\n\n\n\n\n\nPanelist Transfer\n\nYou need to gain access to our panelbase to be able to target and select panelists.\n\n\n\n\n\n\nInvite Requests\n\nYou can request new invitations via API.\n\n\n\n\n\n\nStatus\n\nEvery participant who finishes a survey should get a final status which will be transmitted to us.\n\n\n\n\n\n\nRedirects\n\nAfter finishing a survey the panelist should be redirected to us again depending on the status he got.\n\n\n\n\n\n\nWorkflow Chart\n\n\nAs you see there is really not much needed to get the API to work:",
+            "text": "Welcome\n\n\nHello There!\n\n\nThis documentation provides information on how to connect to SPLENDID RESEARCH via API.\n\nIt aims to include both general and technical principles and processes.\n\nBy following the steps described below you will be able to gain access to our Online Access Panels.\n\n\nDo not hesitate to \ncontact us\n if you are having any questions or remarks about this documentation.\n\n\nIntegration Process\n\n\nConnecting to our panels is very easy! You just need to consider and implement 4 methods:\n\n\n\n\n\n\nPanelist Transfer\n\nYou need to gain access to our panelbase to be able to target and select panelists.\n\n\n\n\n\n\nInvite Requests\n\nYou can request new invitations via API.\n\n\n\n\n\n\nStatus\n\nEvery participant who finishes a survey should get a final status which will be transmitted to us.\n\n\n\n\n\n\nRedirects\n\nAfter finishing a survey the panelist should be redirected to us again depending on the status he got.\n\n\n\n\n\n\nWorkflow Chart\n\n\nAs you see there is really not much needed to get the API to work:\n\n\n\n\nOther Integrations\n\n\nYour API approach looks different from what is described above?\n\nNo Problem! Feel free to \ncontact us\n and we'll try to find a way to collaborate.",
             "title": "Overview"
         },
         {
             "location": "/#welcome",
-            "text": "Hello There!  This documentation provides information on how to connect to SPLENDID RESEARCH via API.\nIt aims to include both general and technical principles and processes.\nBy following the steps described below you will be able to gain access to our Online Access Panels.  Do not hesitate to  contact us  if you are having any questions or remarks about this documentation.",
+            "text": "Hello There!  This documentation provides information on how to connect to SPLENDID RESEARCH via API. \nIt aims to include both general and technical principles and processes. \nBy following the steps described below you will be able to gain access to our Online Access Panels.  Do not hesitate to  contact us  if you are having any questions or remarks about this documentation.",
             "title": "Welcome"
         },
         {
@@ -19,6 +19,11 @@
             "location": "/#workflow-chart",
             "text": "As you see there is really not much needed to get the API to work:",
             "title": "Workflow Chart"
+        },
+        {
+            "location": "/#other-integrations",
+            "text": "Your API approach looks different from what is described above? \nNo Problem! Feel free to  contact us  and we'll try to find a way to collaborate.",
+            "title": "Other Integrations"
         },
         {
             "location": "/panelist/",
