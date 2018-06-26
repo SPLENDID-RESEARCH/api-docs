@@ -138,17 +138,46 @@ Screening questions should be asked at the beginning of the survey.<br /></p>
 The panelist did qualify for the survey, however there were already enough completes registered of the panelists group quota.</p>
 <h1 id="transmission">Transmission</h1>
 <p>The status information should be sent to us via POST to an individual URL which you will provided with and should contain the following information:</p>
-<p>status | Values: COMPLETE, SCREENOUT, QUOTAFULL
-loi | Length of Interview in Minutes
-project_id | ID of project/survey
-country_iso_code | Country ISO Code of project/survey
-language | Language of Survey
-respondent_id | ID of panelist</p>
+<p><strong>IMPORTANT: The URL for status transmission is different to the URL for invite requests</strong></p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>Values: COMPLETE, SCREENOUT, QUOTAFULL</td>
+</tr>
+<tr>
+<td>loi</td>
+<td>Length of Interview in Minutes</td>
+</tr>
+<tr>
+<td>project_id</td>
+<td>ID of project/survey</td>
+</tr>
+<tr>
+<td>country_iso_code</td>
+<td>Country ISO Code of project/survey</td>
+</tr>
+<tr>
+<td>language</td>
+<td>Language of Survey</td>
+</tr>
+<tr>
+<td>respondent_id</td>
+<td>ID of panelist</td>
+</tr>
+</tbody>
+</table>
 <h1 id="example">Example</h1>
 <pre><code>{
     &quot;status&quot;:&quot;COMPLETE&quot;,
     &quot;loi&quot;:&quot;15&quot;,
-    &quot;project_id&quot;:12345,
+    &quot;project_id&quot;:&quot;12345&quot;,
     &quot;country_iso_code&quot;:&quot;US&quot;,
     &quot;language&quot;:&quot;en&quot;,
     &quot;respondent_id&quot;:&quot;349-1-12345678&quot;
