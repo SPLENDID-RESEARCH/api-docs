@@ -122,12 +122,12 @@
             <div class="section">
               
                 <h1 id="explanation">Explanation</h1>
-<p>With Invite Requests you can let us invite panelists to your surveys. Whether it is for a new survey or an already existing one, calling the API will lead to invitations beeing send out by us.<br />
-In order to be able to do so we need some information on the survey as well as the participants to be invited.<br />
-Since you have access to all panelist and their IDs, each Invite Request should contain the respective Member IDs you have selected.<br />
+<p>With Invite Requests you can let us invite panelists to your surveys. Whether it is for a new survey or an already existing one, calling the API will lead to invitations beeing send out by us.<br /></p>
+<p>In order to be able to do so we need some information on the survey as well as the participants to be invited.
+Since you have access to all panelists and their IDs, each Invite Request should contain the respective Member IDs you have selected.<br />
 We also need some information on the survey itself in order to set the project up properly within our system.<br /></p>
 <h1 id="transmission">Transmission</h1>
-<p>The Invite Requests should be sent to us via JSON/POST to an individual URL which you will be provided with and should contain the following information:</p>
+<p>The Invite Requests should be sent to us via JSON/POST to an URL which you will be provided with and should contain the following information:</p>
 <p><strong>IMPORTANT: The URL for Invite Requests is different to the URL for status transmission.</strong></p>
 <table>
 <thead>
@@ -188,14 +188,14 @@ We also need some information on the survey itself in order to set the project u
     &quot;survey_url&quot;: &quot;https://www.example.com&quot;,
 
     &quot;respondents&quot;: [{
-        &quot;respondent_id&quot;: &quot;349-1-123456789&quot;,
+        &quot;respondent_id&quot;: &quot;349-1-987654321&quot;,
         &quot;unique_url_id&quot;: &quot;tSfpoCXn4RnFLeftnAFc&quot;
     }, {
-        &quot;respondent_id &quot;: &quot;B2345559953&quot;,
-        &quot;unique_url_id &quot;: &quot;HuPhCSiF7Up8R408FRbm&quot;
+        &quot;respondent_id&quot;: &quot;349-1-123456789&quot;,
+        &quot;unique_url_id&quot;: &quot;HuPhCSiF7Up8R408FRbm&quot;
     }, {
-        &quot;respondent_id &quot;: &quot;C2929292929&quot;,
-        &quot;unique_url_id &quot;: &quot;FkiQ6sw9A7uVK6aqdFZ4&quot;
+        &quot;respondent_id&quot;: &quot;349-1-5050505050&quot;,
+        &quot;unique_url_id&quot;: &quot;FkiQ6sw9A7uVK6aqdFZ4&quot;
     }]
 }
 </code></pre>
