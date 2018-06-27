@@ -20,7 +20,7 @@ The panelist did qualify for the survey, however there were already enough compl
 
 # Transmission
 
-The status information should be sent to us via POST to an individual URL which you will be provided with and should contain the following information:
+The status information should be sent to us via JSON/POST to an individual URL which you will be provided with and should contain the following information:
 
 **IMPORTANT: The URL for status transmission is different to the URL for invite requests.**
 
