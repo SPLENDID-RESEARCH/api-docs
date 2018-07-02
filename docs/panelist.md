@@ -13,8 +13,8 @@ We offer a lot of profiling information for you to choose from which can also be
 The following profile information is mandatory and has to be shared with you:<br />
 
 * Member ID
-* Country ISO
-* Language ISO
+* Country ISO Code
+* Language ISO Code
 * Birthday
 * Gender
 * Postcode
@@ -58,7 +58,7 @@ Just [contact us](mailto:api@splendid-research.com) if you want more information
 
 # Transmission
 
-The transmission of panelist can be done via API or FTP file upload. However the API approach is way more superior.<br />
+The transmission of panelists can be done via API or FTP file upload. However the API approach is way more superior.<br />
 Next to any profiling information, each call also contains the information whether the panelist is a new one to be added, an already existing one who adjusted their profile or a panelist who should be deleted:<br />
 
 Value | Explanation
@@ -73,14 +73,14 @@ delete | This panelist should be deleted
 
 ```
 {
-		"member_id": "349-1-123456789",
-		"status" : "new"
-		"country_iso_code": "US",
-		"language": "en",
-		"birthday": "1992-08-22",
+		"member_id" : "349-1-123456789",
+		"status" : "new",
+		"country_iso_code" : "US",
+		"language" : "en",
+		"birthday" : "1992-08-22",
 		"gender": 1,
-		"postcode": 13661,
-		"occupation": 7,
+		"postcode" : 13661,
+		"occupation" : 7,
 		"marital_status" : 3,
 		"education" : 5,
 		"p_income" : 2,
