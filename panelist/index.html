@@ -57,6 +57,18 @@
     <a class="current" href="./">Panelist Transfer</a>
     <ul class="subnav">
             
+    <li class="toctree-l2"><a href="#explanation">Explanation</a></li>
+    
+
+    <li class="toctree-l2"><a href="#profile-information">Profile Information</a></li>
+    
+
+    <li class="toctree-l2"><a href="#transmission">Transmission</a></li>
+    
+
+    <li class="toctree-l2"><a href="#example">Example</a></li>
+    
+
     </ul>
 	    </li>
           
@@ -112,7 +124,98 @@
           <div role="main">
             <div class="section">
               
-                <p>Under Construction</p>
+                <h1 id="explanation">Explanation</h1>
+<p>In order to be able to send invite request you need to have access to our panelbase.<br />
+This is being achieved by implementing a panelist transfer to you.<br />
+After an initial import of our panels, this method will continue to transmit new panelist to you, as well as inform you about changes in profile and deleted panelist.<br />
+We offer a lot of profiling information for you to choose from which can also be mapped to already existing categories you have in place.<br /></p>
+<p><em>Please note: Variable names and value labels will depend on what your system accepts.</em></p>
+<h1 id="profile-information">Profile Information</h1>
+<p>The following profile information is mandatory and has to be shared with you:<br /></p>
+<ul>
+<li>Member ID</li>
+<li>Country ISO</li>
+<li>Language ISO</li>
+<li>Birthday</li>
+<li>Gender</li>
+<li>Postcode</li>
+</ul>
+<p>We would suggest to use at least the following profile information for better targeting:<br /></p>
+<ul>
+<li>Occupation </li>
+<li>Accommodation</li>
+<li>Household Size</li>
+<li>Number of Children</li>
+<li>Personal Income</li>
+<li>Household Income</li>
+<li>Industry of Organization</li>
+<li>Decision Maker</li>
+<li>IT Position</li>
+<li>Access to Car(s)</li>
+<li>Primary Grocery Shopper </li>
+<li>Education</li>
+<li>Marital Status</li>
+</ul>
+<p>Additionally to that we offer more than 100 more specific profiling points within the following categories:<br /></p>
+<ul>
+<li><strong>DEMOGRAPHICS</strong></li>
+<li><strong>HOUSEHOLD</strong></li>
+<li><strong>JOB</strong></li>
+<li><strong>CAR</strong></li>
+<li><strong>ELECTRONICS</strong></li>
+<li><strong>SMOKING</strong></li>
+<li><strong>DEMOGRAPHICS</strong></li>
+<li><strong>HEALTH</strong></li>
+<li><strong>TRAVEL</strong></li>
+<li><strong>MEDIA</strong></li>
+<li><strong>MOTHER/BABY</strong></li>
+<li><strong>HOBBIES</strong></li>
+<li><strong>EDUCATION</strong></li>
+<li><strong>DRINKS/FOOD</strong></li>
+<li><strong>GAMING</strong></li>
+</ul>
+<p>Just <a href="mailto:api@splendid-research.com">contact us</a> if you want more information on our extended profiling.<br /></p>
+<h1 id="transmission">Transmission</h1>
+<p>The transmission of panelist can be done via API or FTP file upload. However the API approach is way more superior.<br />
+Next to any profiling information, each call also contains the information whether the panelist is a new one to be added, an already existing one who adjusted their profile or a panelist who should be deleted:<br /></p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>new</td>
+<td>This panelist has to be added by you yet</td>
+</tr>
+<tr>
+<td>change</td>
+<td>This panelists profile should be updated</td>
+</tr>
+<tr>
+<td>delete</td>
+<td>This panelist should be deleted</td>
+</tr>
+</tbody>
+</table>
+<h1 id="example">Example</h1>
+<p><em>Please note: Variable names and value labels will depend on what your system accepts.</em></p>
+<pre><code>{
+        &quot;member_id&quot;: &quot;349-1-123456789&quot;,
+        &quot;status&quot; : &quot;new&quot;
+        &quot;country_iso_code&quot;: &quot;US&quot;,
+        &quot;language&quot;: &quot;en&quot;,
+        &quot;birthday&quot;: &quot;1992-08-22&quot;,
+        &quot;gender&quot;: 1,
+        &quot;postcode&quot;: 13661,
+        &quot;occupation&quot;: 7,
+        &quot;marital_status&quot; : 3,
+        &quot;education&quot; : 5,
+        &quot;p_income&quot; : 2,
+}
+</code></pre>
               
             </div>
           </div>
