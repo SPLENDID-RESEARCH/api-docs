@@ -43,7 +43,6 @@ Additionally to that we offer more than 100 more specific profiling points withi
 * **CAR**
 * **ELECTRONICS**
 * **SMOKING**
-* **DEMOGRAPHICS**
 * **HEALTH**
 * **TRAVEL**
 * **MEDIA**
