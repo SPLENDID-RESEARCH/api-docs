@@ -45,7 +45,8 @@ hash_key | MD5 hash of secret_key, project_id and respondent_id
     "project_id":"12345",
     "country_iso_code":"US",
     "language":"en",
-    "respondent_id":"349-1-12345678"
+    "respondent_id":"349-1-12345678",
+	"hash_key": "Fg2Ed2Nbp9Db5G63ss437"
 }
 ```
 

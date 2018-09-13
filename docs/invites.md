@@ -22,9 +22,10 @@ loi | Length of interview in minutes
 completes | Overall number of completes needed for the study
 supported_devices | Values: “desktop”, “mobile” or “all”
 survey_url | URL of survey
+key | Unique key for each survey, later used to prevent fraud
 respondent_id | Member ID of participant 
 unique_url_id | Unique ID for panelist and survey
-key | Unique key for each survey, later used to prevent fraud
+
 
 # Example
 
@@ -36,7 +37,8 @@ key | Unique key for each survey, later used to prevent fraud
 		"language": "en",
 		"loi": "15",
 		"completes": "1000",
-		"supported_devices": "all"
+		"supported_devices": "all",
+		"key" : "aSwDfg546"
 	},
 	"survey_url": "https://www.example.com",
 
