@@ -24,6 +24,7 @@ supported_devices | Values: “desktop”, “mobile” or “all”
 survey_url | URL of survey
 respondent_id | Member ID of participant 
 unique_url_id | Unique ID for panelist and survey
+key | Unique key for each survey, later used to prevent fraud
 
 # Example
 

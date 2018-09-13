@@ -32,6 +32,7 @@ project_id | ID of project/survey
 country_iso_code | Country ISO Code of project/survey
 language | Language of survey
 respondent_id | ID of panelist
+hash_key | MD5 hash of secret_key, project_id and respondent_id
 
 
 
